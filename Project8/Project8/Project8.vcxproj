@@ -129,6 +129,8 @@
   <ItemGroup>
     <ClCompile Include="14指针详解.cpp" />
     <ClCompile Include="15指针详解2.cpp" />
+    <ClCompile Include="16指针面试题.cpp" />
+    <ClCompile Include="17作业.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

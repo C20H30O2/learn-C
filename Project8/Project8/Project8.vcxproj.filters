@@ -21,5 +21,11 @@
     <ClCompile Include="15指针详解2.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="16指针面试题.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="17作业.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

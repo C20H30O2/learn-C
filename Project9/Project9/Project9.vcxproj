@@ -128,7 +128,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="17字符串等内置类型的一些函数.cpp" />
-    <ClCompile Include="18C语言中的自定义类型.cpp" />
+    <ClCompile Include="18C语言中的内存函数和自定义类型.cpp" />
+    <ClCompile Include="通讯录——函数实现.cpp" />
+    <ClCompile Include="通讯录test.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="通讯录.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

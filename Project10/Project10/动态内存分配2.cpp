@@ -59,44 +59,48 @@
 
 
 //自己也可以用一种方式实现柔性数组
-struct s
-{
-	int n;
-	int* arr;
-};
+//struct s
+//{
+//	int n;
+//	int* arr;
+//};
+//
+//int main()
+//{
+//	struct s* ps = (struct s*)malloc(sizeof(struct s));
+//	ps->arr =(int*) malloc(5 * sizeof(int));
+//	int i = 0;
+//	for (i = 0; i < 5; i++)
+//	{
+//		ps->arr[i] = i;
+//	}
+//	for (i = 0; i < 5; i++)
+//	{
+//		printf("%d ", ps->arr[i]);
+//	}
+//
+//
+//	//调整大小
+//	int* ret=(int*)realloc(ps->arr, 10 * sizeof(int));
+//	if (ret != NULL)
+//	{
+//		ps->arr = ret;
+//	}
+//	for (i = 5; i < 10; i++)
+//	{
+//		ps->arr[i] = i;
+//	}
+//	for (i = 0; i < 10; i++)
+//	{
+//		printf("%d ", ps->arr[i]);
+//	}
+//
+//	//释放内存
+//	free(ps->arr);
+//	free(ps);//注意：一定要先释放ps->arr 因为arr存储在ps指向的空间中，如果先释放ps，arr就无法找回了
+//	return 0;
+//}
 
-int main()
-{
-	struct s* ps = (struct s*)malloc(sizeof(struct s));
-	ps->arr =(int*) malloc(5 * sizeof(int));
-	int i = 0;
-	for (i = 0; i < 5; i++)
-	{
-		ps->arr[i] = i;
-	}
-	for (i = 0; i < 5; i++)
-	{
-		printf("%d ", ps->arr[i]);
-	}
 
 
-	//调整大小
-	int* ret=(int*)realloc(ps->arr, 10 * sizeof(int));
-	if (ret != NULL)
-	{
-		ps->arr = ret;
-	}
-	for (i = 5; i < 10; i++)
-	{
-		ps->arr[i] = i;
-	}
-	for (i = 0; i < 10; i++)
-	{
-		printf("%d ", ps->arr[i]);
-	}
-
-	//释放内存
-	free(ps->arr);
-	free(ps);//注意：一定要先释放ps->arr 因为arr存储在ps指向的空间中，如果先释放ps，arr就无法找回了
-	return 0;
-}
+//相比之下，使用柔性数组方便内存释放，有利于减少内存碎片，也有利于提高访问速度。

@@ -129,6 +129,11 @@
   <ItemGroup>
     <ClCompile Include="动态内存分配.cpp" />
     <ClCompile Include="动态内存分配2.cpp" />
+    <ClCompile Include="通讯录改进test.cpp" />
+    <ClCompile Include="通讯录改进函数实现.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="通讯录改进版.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,10 +1,2 @@
 ﻿  动态内存分配2.cpp
-C:\Users\a\source\repos\learn-C\Project10\Project10\动态内存分配2.cpp(12,6): warning C4200: 使用了非标准扩展: 结构/联合中的零大小数组
-C:\Users\a\source\repos\learn-C\Project10\Project10\动态内存分配2.cpp(12,6): message : 默认构造函数或 copy/move 赋值运算符将忽略此成员
-C:\Users\a\source\repos\learn-C\Project10\Project10\动态内存分配2.cpp(18,6): warning C4200: 使用了非标准扩展: 结构/联合中的零大小数组
-C:\Users\a\source\repos\learn-C\Project10\Project10\动态内存分配2.cpp(18,6): message : 默认构造函数或 copy/move 赋值运算符将忽略此成员
-C:\Users\a\source\repos\learn-C\Project10\Project10\动态内存分配2.cpp(24,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
-C:\Users\a\source\repos\learn-C\Project10\Project10\动态内存分配2.cpp(24,9): message : 请考虑在格式字符串中使用“%zd”
-C:\Users\a\source\repos\learn-C\Project10\Project10\动态内存分配2.cpp(25,9): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 1 拥有了类型“size_t”
-C:\Users\a\source\repos\learn-C\Project10\Project10\动态内存分配2.cpp(25,9): message : 请考虑在格式字符串中使用“%zd”
   Project10.vcxproj -> C:\Users\a\source\repos\learn-C\Project10\x64\Debug\Project10.exe
